@@ -8,7 +8,7 @@ public class MouseHover : MonoBehaviour
     Color m_Colour = Color.red;
     void Start() {
         m_Renderer = GetComponent<MeshRenderer>();
-        og_Colour = m_Renderer.material.color;
+        //og_Colour = m_Renderer.material.color;
     }
 
     private void OnMouseEnter()
