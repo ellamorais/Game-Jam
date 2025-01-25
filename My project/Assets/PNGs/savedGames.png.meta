@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      savedGames_0: 6910881776473119743
+      savedGames_1: 5166747871803722737
+      savedGames_2: 649876589861835274
+      savedGames_3: -278196696204277834
+      savedGames_4: 4135574484458462061
+      savedGames_5: 9013665555785396167
+      savedGames_6: 9040423544250146913
+      savedGames_7: -3992168122521352042
+      savedGames_8: -8309977583989662164
+      savedGames_9: -7298839349411419353
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
