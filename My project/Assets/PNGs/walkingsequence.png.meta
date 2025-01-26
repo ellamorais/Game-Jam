@@ -972,7 +972,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      walkingsequence_0: 197874623352376868
+      walkingsequence_1: 6302520638381352381
+      walkingsequence_10: -4669129184553727218
+      walkingsequence_11: -8531977317467888810
+      walkingsequence_12: -8947238856938311840
+      walkingsequence_13: -6095837122153592283
+      walkingsequence_14: -2983860943692486212
+      walkingsequence_15: 4817884074621483406
+      walkingsequence_16: 3621309985754188352
+      walkingsequence_17: 4759128978068503524
+      walkingsequence_18: -7035219434568980636
+      walkingsequence_19: 7454582215215207069
+      walkingsequence_2: -1412839225132139787
+      walkingsequence_20: -8346268963363216954
+      walkingsequence_21: -1538238157933774118
+      walkingsequence_22: 8355648375341490915
+      walkingsequence_23: -5959556467003942700
+      walkingsequence_24: -6915248994337492611
+      walkingsequence_25: 1657925469574765020
+      walkingsequence_26: -8250974007724138713
+      walkingsequence_27: 5471628645439759017
+      walkingsequence_28: 3213477635298592073
+      walkingsequence_29: 8103117198586920654
+      walkingsequence_3: -3158664170383152625
+      walkingsequence_30: 2334111782110392647
+      walkingsequence_31: -2630514935258854490
+      walkingsequence_32: 8743741005344499784
+      walkingsequence_33: -5481531226831596745
+      walkingsequence_4: 5608064478250365553
+      walkingsequence_5: 2390083714987257386
+      walkingsequence_6: -1501002530713947119
+      walkingsequence_7: 1464577904738594910
+      walkingsequence_8: 4566238937319562224
+      walkingsequence_9: 5119981203966145291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
