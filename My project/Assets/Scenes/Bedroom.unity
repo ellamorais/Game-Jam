@@ -309,14 +309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81ceeab66d6c7e5498a821cd467e2464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 341999724}
-  moveSpeed: 2
-  jumpForce: 2
-  boxSize: {x: 5, y: 5}
-  castDistance: 2
-  groundLayer:
-    m_Bits: 64
-  spriteRenderer: {fileID: 341999726}
 --- !u!50 &341999724
 Rigidbody2D:
   serializedVersion: 5
@@ -850,6 +842,8 @@ MonoBehaviour:
   player: {fileID: 341999727}
   aheadDistance: 5
   cameraSpeed: 2
+  leftBoundary: -5
+  rightBoundary: 5
 --- !u!1 &1969852631
 GameObject:
   m_ObjectHideFlags: 0

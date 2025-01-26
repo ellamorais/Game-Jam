@@ -2,29 +2,23 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    // Room cam
-    //[SerializeField] private float speed;
-    //private float currentPosX;
-    //private Vector3 velocity = Vector3.zero;
-
     // Follow player
     [SerializeField] private Transform player;
     [SerializeField] private float aheadDistance;
     [SerializeField] private float cameraSpeed;
     private float lookAhead;
+
+    // Camera Boundaries
+    [SerializeField] private float leftBoundary;
+    [SerializeField] private float rightBoundary;
+
     private void Update()
     {
-        // Room camera
-        //transform.position = Vector3.SmoothDamp(transform.position, new Vector(currentPosX, transform.position.y, transform.position.z), 
-        //    ref velocity, speed * Time.deltaTime);
+        float targetX = player.position.x + lookAhead;
 
+        targetX = Mathf.Clamp(targetX, leftBoundary, rightBoundary);
         // Follow player
-        transform.position = new Vector3(player.position.x + lookAhead, transform.position.y, transform.position.z);
+        transform.position = new Vector3(targetX, transform.position.y, transform.position.z);
         lookAhead = Mathf.Lerp(lookAhead, (aheadDistance * player.localScale.x), Time.deltaTime * cameraSpeed);
     }
-
-    //private void MoveToNewRoom(Transform _newRoom)
-    //{
-    //    currentPosX = _newRoom.position.x;
-    //}
 }
