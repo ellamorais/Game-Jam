@@ -7,7 +7,7 @@ public class Buttons : MonoBehaviour
 {
     public void changetoMainScene()
     {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("Main Scene");
     }
 
     public void quitGame()
