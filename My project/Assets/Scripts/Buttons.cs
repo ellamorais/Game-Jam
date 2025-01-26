@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
-    public void changetoMainScene()
+    public void changetoMainScene(string sceneName)
     {
-        SceneManager.LoadScene("Main Scene");
+        SceneManager.LoadScene(sceneName);
     }
 
     public void quitGame()
