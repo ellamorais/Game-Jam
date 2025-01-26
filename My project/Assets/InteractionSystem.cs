@@ -6,7 +6,7 @@ public class InteractionSystem : MonoBehaviour
     public Transform detectionPoint;
 
     // Detection Radius
-    private const float detectionRadius = 0.2f;
+    public float detectionRadius = 2f;
 
     // Detection Layer
     public LayerMask detectionLayer;
@@ -48,7 +48,9 @@ public class InteractionSystem : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         // Visualize the detection radius in the Scene view with a specified radius
-        Gizmos.color = Color.green;
+        Gizmos.color = Color.red;
         Gizmos.DrawSphere(detectionPoint.position, detectionRadius);
+
+        Debug.Log("Drawing detection radius");
     }
 }

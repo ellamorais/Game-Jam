@@ -466,18 +466,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1962424501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2924b4f5ac59be04d813cfd16942035f, type: 3}
+  m_Script: {fileID: 11500000, guid: 960baf171adfdb64e936d3a4453920e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1962424504}
-  moveSpeed: 2
+  speed: 2
+  scale: 1
   jumpForce: 3
-  boxSize: {x: -0.69, y: 0.36}
-  castDistance: 0.5
+  spriteRenderer: {fileID: 1962424505}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  spriteRenderer: {fileID: 1962424505}
 --- !u!114 &1962424503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -596,7 +594,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 2
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
